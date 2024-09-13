@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Senha</title>
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+       
+            <img src="https://legalitgroup.com/wp-content/uploads/2021/10/Pngtree-hand-drawn-cartoon-cyber-security_5053337-1024x1024.png" class="img">
+
+        <div class="input-panel">
+            <div class="animation-panel">
+                <div class="typing-animation">
+                    <span class="text" id="text"></span>
+                    <span class="cursor" id="cursor">|</span>
+                </div>
+            <div class="password-container">
+                <input type="password" id="passwordInput" placeholder="Digite sua senha">
+                <i id="togglePassword" class="fas fa-eye"></i>
+            </div>
+            <button id="generatePasswordButton">Gerar Senha Segura</button>
+            <!-- <div class="checklist" id="checklist">
+                <p class="check" id="lengthCheck">❌ Pelo menos 8 caracteres</p>
+                <p class="check" id="uppercaseCheck">❌ Pelo menos uma letra maiúscula</p>
+                <p class="check" id="lowercaseCheck">❌ Pelo menos uma letra minúscula</p>
+                <p class="check" id="digitCheck">❌ Pelo menos um dígito</p>
+                <p class="check" id="specialCharCheck">❌ Pelo menos um caractere especial (@, #, $, %, etc.)</p>
+            </div> -->
+            <p class="success-message" id="successMessage"></p>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
